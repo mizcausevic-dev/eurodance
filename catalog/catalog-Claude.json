@@ -1,0 +1,654 @@
+{
+  "about": "Eurodance hooks: four-on-the-floor drums, octave-jump bass, minor-key piano chords and a steady-eighth lead at 136 to 144 BPM.",
+  "catalog_address": "https://mizcausevic-dev.github.io/eurodance/",
+  "counts": {
+    "arrangements": 4,
+    "kits": 4,
+    "midi_files": 52,
+    "part_files": 48
+  },
+  "film": {
+    "captions": "film/preview.vtt",
+    "duration": 27.428005,
+    "path": "film/preview.mp4",
+    "poster": "film/poster.jpg"
+  },
+  "format": {
+    "arrangement_bars": 32,
+    "arrangement_format": 1,
+    "channels": {
+      "bass": 1,
+      "drums": 10,
+      "keys": 2,
+      "motif": 3,
+      "pad": 5,
+      "sequence": 4
+    },
+    "part_bars": 8,
+    "part_format": 0,
+    "ppq": 960,
+    "ranges": {
+      "bass": [
+        40,
+        60
+      ],
+      "keys": [
+        48,
+        76
+      ],
+      "motif": [
+        60,
+        86
+      ],
+      "pad": [
+        48,
+        81
+      ],
+      "sequence": [
+        52,
+        81
+      ]
+    },
+    "time_signature": "4/4"
+  },
+  "kits": [
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Neon Crowd arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k01-neon-crowd/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "c24606bdeb251efaa7484373c8bc36c161b0aaeaf7e548671751b7052a2cec07"
+      },
+      "bpm": 140,
+      "id": "k01",
+      "key": "A",
+      "mode": "aeolian",
+      "name": "Neon Crowd",
+      "parts": [
+        {
+          "notes": 166,
+          "path": "midi/k01-neon-crowd/drums-a.mid",
+          "role": "drums",
+          "sha256": "f05e0c6cb8b924f433f476b283452fe8aeb732101ccfc70f96735890349cb089",
+          "variation": "a"
+        },
+        {
+          "notes": 237,
+          "path": "midi/k01-neon-crowd/drums-b.mid",
+          "role": "drums",
+          "sha256": "3754ce9d230a7618fdb5c58c682eef6b05c1e0d7484a6c8d444c9584c6fa5171",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k01-neon-crowd/bass-a.mid",
+          "role": "bass",
+          "sha256": "094f6b1853d74813096dda5fd1113ded8d59c3f460e4b7a545fceed14bb96f91",
+          "variation": "a"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k01-neon-crowd/bass-b.mid",
+          "role": "bass",
+          "sha256": "09af2b2cc6f40c1a4da7774f71f35bc3d6f934711b80834d936f7bf871979782",
+          "variation": "b"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k01-neon-crowd/keys-a.mid",
+          "role": "keys",
+          "sha256": "e99e8781f33393c6438ee1172227887ddf2b54493128dfe0e3a381f1db8da098",
+          "variation": "a"
+        },
+        {
+          "notes": 192,
+          "path": "midi/k01-neon-crowd/keys-b.mid",
+          "role": "keys",
+          "sha256": "3a6217206338e81f70cba03749206bb74c28d434ee38bdf89c5676b1f65ed9aa",
+          "variation": "b"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k01-neon-crowd/motif-a.mid",
+          "role": "motif",
+          "sha256": "154cd65fb0b9e9014b59366a30aa1e4518118944f07987ebbfa4fa9edcd337b3",
+          "variation": "a"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k01-neon-crowd/motif-b.mid",
+          "role": "motif",
+          "sha256": "9b3a9bf18dcb7c8abfa3174c09a7906b4a6afe61f5da1229620ba1b4c83eced5",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k01-neon-crowd/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "495843b1b299cc99b370bc7aa99451821271bfba7bbbaa566d5c949446e95f41",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k01-neon-crowd/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "f209047dbbc4633793fb8f9130696286b735e35b254c191b1d92ae1440db90a1",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k01-neon-crowd/pad-a.mid",
+          "role": "pad",
+          "sha256": "e5030c18e53ad84869b7d5142da04e3646411c576e4f3861803b550d5cb7b15f",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k01-neon-crowd/pad-b.mid",
+          "role": "pad",
+          "sha256": "c6aa4608c814bf8d39625b9f91e8b5756a68d748fd59edf271a56ec03c5a12cc",
+          "variation": "b"
+        }
+      ],
+      "progression": "Am (2 bars) | F (2 bars) | C (2 bars) | G (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Star Ticket arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k02-star-ticket/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "b87749506c5fb0b59c3f0a597ba1b4ea37e27a1b49eef269957ba931733e8b10"
+      },
+      "bpm": 138,
+      "id": "k02",
+      "key": "D",
+      "mode": "aeolian",
+      "name": "Star Ticket",
+      "parts": [
+        {
+          "notes": 166,
+          "path": "midi/k02-star-ticket/drums-a.mid",
+          "role": "drums",
+          "sha256": "ec9d5afd60ccf9f576ca26bc2e263328b791b8387b35d547d429954a65c73331",
+          "variation": "a"
+        },
+        {
+          "notes": 237,
+          "path": "midi/k02-star-ticket/drums-b.mid",
+          "role": "drums",
+          "sha256": "ff8024b158234232f69e11c9368669724071f1981e2ac54c42bc2bb95afc1bca",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k02-star-ticket/bass-a.mid",
+          "role": "bass",
+          "sha256": "a068f8316d4f138c46fc8325ac2be3ce9fa3b00dc4acba42f7696d79d7060ae6",
+          "variation": "a"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k02-star-ticket/bass-b.mid",
+          "role": "bass",
+          "sha256": "8a02fd89547289c4c69207b623ec67fac9ee0e9fab06159a9b9c67d2dd0079a4",
+          "variation": "b"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k02-star-ticket/keys-a.mid",
+          "role": "keys",
+          "sha256": "5186b22b85a224b325a5d998bc39cc5ed06df33d27495233fbcdb575fcb13ff6",
+          "variation": "a"
+        },
+        {
+          "notes": 192,
+          "path": "midi/k02-star-ticket/keys-b.mid",
+          "role": "keys",
+          "sha256": "4470c8f8f871818c72c985f171811316e8dc157449585c3bc372beb2af0e412c",
+          "variation": "b"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k02-star-ticket/motif-a.mid",
+          "role": "motif",
+          "sha256": "7a3cd91645eb6cbb0e4c20372bf0ff68ede103b20f82f391315e8f2a40ae3f63",
+          "variation": "a"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k02-star-ticket/motif-b.mid",
+          "role": "motif",
+          "sha256": "805e2f15bc97597dcbdba77a373597c03bc1b8ae81de3b9246c5f4b8f1ff2798",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k02-star-ticket/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "2f680d0c5519b02b4d1d021c7fc3c7781ee5551011dd405a08c16ae6c7c55dd1",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k02-star-ticket/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "b911423576f465e9a8613357d62de50221262396368f505fbd4228af3f1c4499",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k02-star-ticket/pad-a.mid",
+          "role": "pad",
+          "sha256": "587d1633e36217107160cb100cb466e06724ccab81a64226ed2a27ef43729f55",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k02-star-ticket/pad-b.mid",
+          "role": "pad",
+          "sha256": "c4ce4dd4a4b949e405614044d1da159cc7bcb9af58118a26d29b3a25ea7fbd31",
+          "variation": "b"
+        }
+      ],
+      "progression": "Dm (2 bars) | Bb (2 bars) | F (2 bars) | C (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Night Bus arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k03-night-bus/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "e6db12d5a5c8f4f2a14b14eba2fb6504141cb0051f5a9c0676456e2a458f6929"
+      },
+      "bpm": 144,
+      "id": "k03",
+      "key": "G",
+      "mode": "aeolian",
+      "name": "Night Bus",
+      "parts": [
+        {
+          "notes": 166,
+          "path": "midi/k03-night-bus/drums-a.mid",
+          "role": "drums",
+          "sha256": "2583f6f1d64eebb93bd81275889de60a5399a549b2899afade5dc6517aa00916",
+          "variation": "a"
+        },
+        {
+          "notes": 237,
+          "path": "midi/k03-night-bus/drums-b.mid",
+          "role": "drums",
+          "sha256": "a519729f3811e697f91937e880a756755f841d21a35ac8dcf5000cb1d2fac8df",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k03-night-bus/bass-a.mid",
+          "role": "bass",
+          "sha256": "687ad1ac44f00b31ea55edc352dd6883b6aa17ed2fd8ad21d26a5308eece1ebd",
+          "variation": "a"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k03-night-bus/bass-b.mid",
+          "role": "bass",
+          "sha256": "d443cf25dc6f122c1ec86924953009fadfa1387bdf1f53eccd04e4c0c88abe54",
+          "variation": "b"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k03-night-bus/keys-a.mid",
+          "role": "keys",
+          "sha256": "be84f2b8fd5650e67c51516ceb45d1da3884db1d586f4402bf63dd4c1f911e5f",
+          "variation": "a"
+        },
+        {
+          "notes": 192,
+          "path": "midi/k03-night-bus/keys-b.mid",
+          "role": "keys",
+          "sha256": "b12d8d0096d555f0d16094eb20e33da15a778e7c5ab268f5e9fcc33498ac39b5",
+          "variation": "b"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k03-night-bus/motif-a.mid",
+          "role": "motif",
+          "sha256": "57d9d3ee478ab3709a3fe3397a038e540d4507af5231abc020dfbdea84d5ec0d",
+          "variation": "a"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k03-night-bus/motif-b.mid",
+          "role": "motif",
+          "sha256": "131072c5f73a6ed52b2564cc6d5fe89e7641cf7f9a537712e119e7710de58d25",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k03-night-bus/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "52ee97c8c6fd1ffcf90a1ee52b2fcc28533b17144bee16ddc76eab74e8d0e0a4",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k03-night-bus/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "ee5cb25778f8aaf98d42a36d7ac5b12ff278d5a8e44bb66824e6780c289ec827",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k03-night-bus/pad-a.mid",
+          "role": "pad",
+          "sha256": "802728b2bd5147bce5b883378c36468ea9efe3f96c19f69e5c344fea78c1deff",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k03-night-bus/pad-b.mid",
+          "role": "pad",
+          "sha256": "a0de1947b239758ee26c411c1fa48732c4aa8d89c05e8c97fea1c2a609afa5c1",
+          "variation": "b"
+        }
+      ],
+      "progression": "Gm (2 bars) | Eb (2 bars) | Bb (2 bars) | F (2 bars)"
+    },
+    {
+      "arrangement": {
+        "container_bars": 32,
+        "description": "Laser Bridge arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets (zero based).",
+        "path": "midi/k04-laser-bridge/arrangement.mid",
+        "placements": {
+          "bass.a": [
+            0,
+            8
+          ],
+          "bass.b": [
+            24
+          ],
+          "drums.a": [
+            0,
+            8
+          ],
+          "drums.b": [
+            24
+          ],
+          "keys.a": [
+            0,
+            8,
+            24
+          ],
+          "keys.b": [
+            16
+          ],
+          "motif.a": [
+            0,
+            24
+          ],
+          "pad.a": [
+            0,
+            8,
+            24
+          ],
+          "pad.b": [
+            16
+          ],
+          "sequence.a": [
+            8
+          ],
+          "sequence.b": [
+            16
+          ]
+        },
+        "sha256": "281243ae62d704109e5cee3709e80476f3b18d08b7491c5dc472f308ce75c380"
+      },
+      "bpm": 136,
+      "id": "k04",
+      "key": "C",
+      "mode": "aeolian",
+      "name": "Laser Bridge",
+      "parts": [
+        {
+          "notes": 166,
+          "path": "midi/k04-laser-bridge/drums-a.mid",
+          "role": "drums",
+          "sha256": "c57137e7e18ff9dd2e6849b56994912d5832262338674fed6a38145d70359784",
+          "variation": "a"
+        },
+        {
+          "notes": 237,
+          "path": "midi/k04-laser-bridge/drums-b.mid",
+          "role": "drums",
+          "sha256": "17004a1cbf4670e86d29f73430656dfecc38549a2a6d51f10f7b6703c49bba7b",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k04-laser-bridge/bass-a.mid",
+          "role": "bass",
+          "sha256": "dfdf820fb01b5e18c3647302914e4476706aecaaa35d73596c8eb29283ff72b1",
+          "variation": "a"
+        },
+        {
+          "notes": 48,
+          "path": "midi/k04-laser-bridge/bass-b.mid",
+          "role": "bass",
+          "sha256": "0cc8c660029126b6964fd05fbaf3fd956102f3363cb02b4f6ebdf43bce2ed128",
+          "variation": "b"
+        },
+        {
+          "notes": 256,
+          "path": "midi/k04-laser-bridge/keys-a.mid",
+          "role": "keys",
+          "sha256": "2ea1036ddbf4038be07a926bf9330125f3bc6a50d10de329d5103da9f8de9a80",
+          "variation": "a"
+        },
+        {
+          "notes": 192,
+          "path": "midi/k04-laser-bridge/keys-b.mid",
+          "role": "keys",
+          "sha256": "1d8d910830cb641b1dd3adcb1c81e359c25d679da9580938b1f3ac6bb9fe6507",
+          "variation": "b"
+        },
+        {
+          "notes": 43,
+          "path": "midi/k04-laser-bridge/motif-a.mid",
+          "role": "motif",
+          "sha256": "d36ceb327aafd4b2ac1bffea39b54e782aaef1fd30f14c1019ded4d7964cc09a",
+          "variation": "a"
+        },
+        {
+          "notes": 44,
+          "path": "midi/k04-laser-bridge/motif-b.mid",
+          "role": "motif",
+          "sha256": "ae4be7d04c63dfc7477ab1416f58738c2f99d1029a2d2262f26c85cbe9fe8aaf",
+          "variation": "b"
+        },
+        {
+          "notes": 64,
+          "path": "midi/k04-laser-bridge/sequence-a.mid",
+          "role": "sequence",
+          "sha256": "e065494b8e432a5ed6a5e473267081915af37432e5b10920aee1373c03893863",
+          "variation": "a"
+        },
+        {
+          "notes": 24,
+          "path": "midi/k04-laser-bridge/sequence-b.mid",
+          "role": "sequence",
+          "sha256": "1f23b46d60f75f1464bc236d8c1d8b4c1d05d196f7abbf7ba462535d01d8c662",
+          "variation": "b"
+        },
+        {
+          "notes": 16,
+          "path": "midi/k04-laser-bridge/pad-a.mid",
+          "role": "pad",
+          "sha256": "7fdd5131a46f3505c8be3033293ca3a4b4bbcdf3b6708c0d206b746ec1e1674c",
+          "variation": "a"
+        },
+        {
+          "notes": 32,
+          "path": "midi/k04-laser-bridge/pad-b.mid",
+          "role": "pad",
+          "sha256": "885c19ace026d3c60b3bd40d39245a26b96e1545760a0dbbc9408d8e527d6263",
+          "variation": "b"
+        }
+      ],
+      "progression": "Cm (2 bars) | Ab (2 bars) | Eb (2 bars) | Bb (2 bars)"
+    }
+  ],
+  "pack": "eurodance",
+  "preview": {
+    "bar_first": 17,
+    "bar_last": 32,
+    "bpm": 140,
+    "duration": 27.454694,
+    "kit_id": "k01",
+    "manifest": "preview/preview-manifest-Claude.txt",
+    "path": "preview/preview.mp3",
+    "sha256": "1c2c196b5c99f50dc750c4ca4e0216632957128bc79a273b5f69da03d1522cb0"
+  },
+  "repository": "https://github.com/mizcausevic-dev/eurodance",
+  "statements": {
+    "audition": "No human listening audition was performed for this build.",
+    "license": "No license is set.",
+    "on_picture": "preview, not master",
+    "preview": "preview, not a master",
+    "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+    "publication": "The GitHub repository is https://github.com/mizcausevic-dev/eurodance and it is public. The catalog address is https://mizcausevic-dev.github.io/eurodance/ . Treat that address as live only after it responds.",
+    "warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file."
+  },
+  "tags": [
+    "midi",
+    "eurodance",
+    "dance",
+    "90s",
+    "music-production"
+  ],
+  "title": "Eurodance",
+  "validation": "midi/validation-Claude.json"
+}
